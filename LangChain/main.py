@@ -14,8 +14,7 @@ from output_parsers import (
 from langchain.output_parsers import PydanticOutputParser
 import os
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+
 OPENAI_API_KEY = "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"
 openai.api_key = "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"
 os.environ["SERPAPI_API_KEY"] = "22957c946deeee4f2061460d1832bc082ed1168ae6d665b8fbc632681eb1f21d"
@@ -70,6 +69,6 @@ if __name__ == '__main__':
 
 
 
-    """So far we just used a simple web call to get information, but let's use agents part of langchain now"""
+
 
 
